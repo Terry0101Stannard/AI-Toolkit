@@ -1,25 +1,19 @@
-/*
 
-TemplateMo 590 topic listing
-
-https://templatemo.com/tm-590-topic-listing
-
-*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
+  --primary-color:                #ffffff;
+  --secondary-color:              #000000c2;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
+  --custom-btn-bg-color:          #000000;
+  --custom-btn-bg-hover-color:    #44e3ff;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --border-color:                 #000000;
+  --link-hover-color:             #000000;
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -147,7 +141,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #1e3e50 0%, #80d0c7 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -248,7 +242,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #000000 0%, #000000 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -289,7 +283,6 @@ strong {
 
 .navbar {
   background: transparent;
-  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
   z-index: 9;
 }
 
@@ -486,7 +479,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(180deg, #000000 100%, #4aa8afa2 50%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -524,7 +517,7 @@ strong {
   TOPICS              
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--secondary-color);
+  background-image: linear-gradient( #000000 0%, #4aa8afa2 100%);
   border-radius: 0 0 100px 100px;
   padding-bottom: 100px;
 }
@@ -620,7 +613,7 @@ strong {
 }
 
 .bg-graphic {
-  background-color: #00BFA6;
+  background-color: #73a09a;
 }
 
 .bg-advertising {
