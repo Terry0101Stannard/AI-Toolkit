@@ -5,12 +5,12 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #94e1ff;
+  --primary-color:                #00ccff;
   --nav-tabs:                     #000000c2;
-  --secondary-color:              #000000c2;
+  --secondary-color:              #000000;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #000000;
-  --custom-btn-bg-hover-color:    #44e3ff;
+  --custom-btn-bg-hover-color:    #00a2ff;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #000000;
@@ -877,41 +877,26 @@ blockquote {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  border-bottom: 10px solid var(--secondary-color);
   position: relative;
+  background-color: var(--secondary-color);
 }
 
-.site-footer::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 200px 200px;
-  border-color: transparent transparent var(--secondary-color) transparent;
-  pointer-events: none;
-}
 
-.site-footer-title {
-  color: var(--primary-color); 
-}
 
 .site-footer .dropdown-menu {
   padding: 0;
 }
 
 .site-footer .dropdown-item {
-  color: var(--p-color);
+  color: var(--white-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   padding: 4px 18px;
 }
 
 .site-footer .dropdown-item:hover {
-  background-color: transparent;
-  color: var(--primary-color);
+ 
+  color: var(--custom-btn-bg-hover-color);
 }
 
 .site-footer .dropdown-menu li:first-child .dropdown-item {
@@ -923,12 +908,12 @@ blockquote {
 }
 
 .site-footer .dropdown-toggle {
-  background-color: var(--secondary-color);
+  background-color: var(--white-color);
   border-color: var(--white-color);
 }
 
 .site-footer .dropdown-toggle:hover {
-  background-color: var(--primary-color);
+  background-color: var(--custom-btn-bg-hover-color);
   border-color: transparent;
 }
 
@@ -943,7 +928,7 @@ blockquote {
 }
 
 .site-footer-link {
-  color: var(--secondary-color);
+  color: var(--white-color);
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-medium);
   line-height: normal;
@@ -951,41 +936,9 @@ blockquote {
 
 .copyright-text {
   font-size: var(--copyright-font-size);
-}
-
-
-/*---------------------------------------
-  SOCIAL ICON               
------------------------------------------*/
-.social-icon {
-  margin: 0;
-  padding: 0;
-}
-
-.social-icon-item {
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.social-icon-link {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--copyright-font-size);
-  display: block;
-  margin-right: 10px;
-  text-align: center;
-  width: 35px;
-  height: 35px;
-  line-height: 36px;
-  transition: background 0.2s, color 0.2s;
-}
-
-.social-icon-link:hover {
-  background: var(--primary-color);
   color: var(--white-color);
 }
+
 
 
 /*---------------------------------------
